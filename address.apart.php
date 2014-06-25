@@ -80,6 +80,6 @@ if (is_array($add_arr)) {
 			}
 		}
 		//分割好的地址写入文件
-		file_put_contents('address.detail.new', implode("\t", $arr_get) . "\n", FILE_APPEND);
+		file_put_contents('address.detail', implode("\t", $arr_get) . "\n", FILE_APPEND);
 	}
 }
